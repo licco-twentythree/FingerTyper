@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51420A9B2654F0F6004B7D7D /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51420A9A2654F0F6004B7D7D /* words.txt */; };
+		51420A9F26553529004B7D7D /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51420A9E26553528004B7D7D /* correct.wav */; };
+		51420AAA265559AE004B7D7D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51420AA9265559AE004B7D7D /* GameViewController.swift */; };
+		515DFC77264FA5E800E5BE26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515DFC76264FA5E800E5BE26 /* AppDelegate.swift */; };
+		515DFC79264FA5E800E5BE26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515DFC78264FA5E800E5BE26 /* SceneDelegate.swift */; };
+		515DFC7B264FA5E800E5BE26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515DFC7A264FA5E800E5BE26 /* ViewController.swift */; };
+		515DFC7E264FA5E800E5BE26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515DFC7C264FA5E800E5BE26 /* Main.storyboard */; };
+		515DFC80264FA5F600E5BE26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515DFC7F264FA5F600E5BE26 /* Assets.xcassets */; };
+		515DFC83264FA5F600E5BE26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515DFC81264FA5F600E5BE26 /* LaunchScreen.storyboard */; };
+		515DFC8C264FAA5800E5BE26 /* FingerTyper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515DFC8B264FAA5800E5BE26 /* FingerTyper.swift */; };
+		515DFC92264FAAFA00E5BE26 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515DFC91264FAAFA00E5BE26 /* Word.swift */; };
+		96159BD7265564AD003A3A55 /* fingerTyperLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 96159BD6265564AC003A3A55 /* fingerTyperLogo.png */; };
+		96CB07EA2654F4C000F30E83 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CB07E92654F4C000F30E83 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51420A9A2654F0F6004B7D7D /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		51420A9E26553528004B7D7D /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correct.wav; sourceTree = "<group>"; };
+		51420AA9265559AE004B7D7D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		515DFC73264FA5E800E5BE26 /* FingerTyper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerTyper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515DFC76264FA5E800E5BE26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		515DFC78264FA5E800E5BE26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		515DFC7A264FA5E800E5BE26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		515DFC7D264FA5E800E5BE26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		515DFC7F264FA5F600E5BE26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515DFC82264FA5F600E5BE26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		515DFC84264FA5F600E5BE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515DFC8B264FAA5800E5BE26 /* FingerTyper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerTyper.swift; sourceTree = "<group>"; };
+		515DFC91264FAAFA00E5BE26 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		96159BD6265564AC003A3A55 /* fingerTyperLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fingerTyperLogo.png; path = View/fingerTyperLogo.png; sourceTree = "<group>"; };
+		96CB07E92654F4C000F30E83 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515DFC70264FA5E800E5BE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51420A9D265534FA004B7D7D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				51420A9E26553528004B7D7D /* correct.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		515DFC6A264FA5E800E5BE26 = {
+			isa = PBXGroup;
+			children = (
+				515DFC75264FA5E800E5BE26 /* FingerTyper */,
+				515DFC74264FA5E800E5BE26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		515DFC74264FA5E800E5BE26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515DFC73264FA5E800E5BE26 /* FingerTyper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515DFC75264FA5E800E5BE26 /* FingerTyper */ = {
+			isa = PBXGroup;
+			children = (
+				515DFC76264FA5E800E5BE26 /* AppDelegate.swift */,
+				515DFC7F264FA5F600E5BE26 /* Assets.xcassets */,
+				515DFC84264FA5F600E5BE26 /* Info.plist */,
+				51420A9D265534FA004B7D7D /* Sounds */,
+				515DFC9B2653DA2B00E5BE26 /* Controller */,
+				515DFC9A2653DA1700E5BE26 /* View */,
+				96159BD6265564AC003A3A55 /* fingerTyperLogo.png */,
+				515DFC90264FAADD00E5BE26 /* Model */,
+			);
+			path = FingerTyper;
+			sourceTree = "<group>";
+		};
+		515DFC90264FAADD00E5BE26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51420A9A2654F0F6004B7D7D /* words.txt */,
+				515DFC8B264FAA5800E5BE26 /* FingerTyper.swift */,
+				515DFC91264FAAFA00E5BE26 /* Word.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		515DFC9A2653DA1700E5BE26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				515DFC81264FA5F600E5BE26 /* LaunchScreen.storyboard */,
+				515DFC78264FA5E800E5BE26 /* SceneDelegate.swift */,
+				515DFC7C264FA5E800E5BE26 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		515DFC9B2653DA2B00E5BE26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				515DFC7A264FA5E800E5BE26 /* ViewController.swift */,
+				96CB07E92654F4C000F30E83 /* SettingsViewController.swift */,
+				51420AA9265559AE004B7D7D /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515DFC72264FA5E800E5BE26 /* FingerTyper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515DFC87264FA5F600E5BE26 /* Build configuration list for PBXNativeTarget "FingerTyper" */;
+			buildPhases = (
+				515DFC6F264FA5E800E5BE26 /* Sources */,
+				515DFC70264FA5E800E5BE26 /* Frameworks */,
+				515DFC71264FA5E800E5BE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerTyper;
+			productName = FingerTyper;
+			productReference = 515DFC73264FA5E800E5BE26 /* FingerTyper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515DFC6B264FA5E800E5BE26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					515DFC72264FA5E800E5BE26 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 515DFC6E264FA5E800E5BE26 /* Build configuration list for PBXProject "FingerTyper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515DFC6A264FA5E800E5BE26;
+			productRefGroup = 515DFC74264FA5E800E5BE26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515DFC72264FA5E800E5BE26 /* FingerTyper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515DFC71264FA5E800E5BE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515DFC83264FA5F600E5BE26 /* LaunchScreen.storyboard in Resources */,
+				515DFC80264FA5F600E5BE26 /* Assets.xcassets in Resources */,
+				96159BD7265564AD003A3A55 /* fingerTyperLogo.png in Resources */,
+				51420A9B2654F0F6004B7D7D /* words.txt in Resources */,
+				51420A9F26553529004B7D7D /* correct.wav in Resources */,
+				515DFC7E264FA5E800E5BE26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515DFC6F264FA5E800E5BE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51420AAA265559AE004B7D7D /* GameViewController.swift in Sources */,
+				515DFC7B264FA5E800E5BE26 /* ViewController.swift in Sources */,
+				515DFC77264FA5E800E5BE26 /* AppDelegate.swift in Sources */,
+				515DFC92264FAAFA00E5BE26 /* Word.swift in Sources */,
+				515DFC79264FA5E800E5BE26 /* SceneDelegate.swift in Sources */,
+				515DFC8C264FAA5800E5BE26 /* FingerTyper.swift in Sources */,
+				96CB07EA2654F4C000F30E83 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		515DFC7C264FA5E800E5BE26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515DFC7D264FA5E800E5BE26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		515DFC81264FA5F600E5BE26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515DFC82264FA5F600E5BE26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		515DFC85264FA5F600E5BE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		515DFC86264FA5F600E5BE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515DFC88264FA5F600E5BE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPW2B284V4;
+				INFOPLIST_FILE = FingerTyper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbd.FingerTyper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		515DFC89264FA5F600E5BE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPW2B284V4;
+				INFOPLIST_FILE = FingerTyper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbd.FingerTyper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515DFC6E264FA5E800E5BE26 /* Build configuration list for PBXProject "FingerTyper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515DFC85264FA5F600E5BE26 /* Debug */,
+				515DFC86264FA5F600E5BE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515DFC87264FA5F600E5BE26 /* Build configuration list for PBXNativeTarget "FingerTyper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515DFC88264FA5F600E5BE26 /* Debug */,
+				515DFC89264FA5F600E5BE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515DFC6B264FA5E800E5BE26 /* Project object */;
+}
